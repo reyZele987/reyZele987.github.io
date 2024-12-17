@@ -8,48 +8,61 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='styles.css'>
     <link rel="icon" type="text/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKsBNoJSBOgXD13b4USKUCzNHwC1lPfC8tg&usqp=CAU">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>  
+
 <body>
+
     <header> 
-         <h1>
+        <h1>
             startingConsumingAnApi
         </h1>
     </header>
-       
-        <p>
-             <button onclick="alertFunction(),forButton()"  class="buttonCreating"> Click  </button> 
-        </p>    
-
     
-      <table>
-    <tr> 
-        <th> Name </th>
-        <th> Id </th>
-        <th> Gender </th>
-        <th> Status </th>  
-        <th> First Episode</th>
-     </tr>
+    <p>
+        <input type="number" id="inputCreating" value="" placeholder="Choose a number" required>
+    </p>  
+         
+    <p>
+        <button  id="buttonCreating"> Show a character </button> 
+    </p> 
 
-     <tr class="tableClass">
-        <td> </td> 
-        <td> </td>
-        <td> </td>
-        <td> </td>  
-     </tr>
-     </table>
+        <button id="deleteAlert"> Delete alert</button>
+    
+        <button id="deleteAlert1"> Delete alert</button>
 
+      
+    <div class="div_container">
+        
+        <table>
+            <tr> 
+                <th> Name </th>
+                <th> Id </th>
+                <th> Gender </th>
+                <th> Status </th>  
+                <th> First Episode</th>
+            </tr>
 
-
-
+            <tr id="tableClass">
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+                <td> </td>  
+                <td> </td>
+            </tr>
+        </table> 
 
     <p> 
         <img src="" class="imageCreating"> 
-    </p>
+    </p> 
 
-<script src='java.js'></script>
+    <p>
+        <button id="buttonInside"> Close</button>
+    </p>
+    
+    </div>
+
+    <script src='java.js'></script>
 
 </body>
-
 </html>
 
